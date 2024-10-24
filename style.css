@@ -1,0 +1,205 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box !important;
+}
+body{
+font-family: "Lato", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+}
+.main-header{
+    background-color: #023931 !important;
+}
+.FoodieXpress{
+    font-weight: 600 !important;
+    letter-spacing: 1.5px;
+}
+.nav-a{
+    color:white !important;
+}
+.nav-a:hover{
+    color: #1dbda7 !important;
+}
+.nav-contact{
+    background-color: rgb(19, 95, 87);
+    align-self: center;
+    padding: 8px 25px !important;
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s;
+}
+.nav-contact:hover{
+    font-weight: 400;
+    background-color: #011815;
+    color: rgb(255, 255, 255);
+}
+/* Hero section code start */
+#hero-seciton-container{
+    height: 82.7vh;
+    margin-top: 80px;
+}
+.hero-heding-text{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 70px;
+}
+.hero-peragraph{
+    margin: 30px 0px;
+    font-size: 20px;
+}
+.hero-order-btn{
+    background-color: rgb(19, 95, 87);
+    border: none;
+    font-size: 20px;
+    padding: 15px 40px;
+    margin-top: 30px;
+}
+.hero-order-btn:hover{
+    background-color: #198754;
+}
+/*Featured food item section */
+.card-h5{
+    font-size: 17px;
+    font-weight: 600;
+    text-wrap: wrap;
+}
+.card-peragrap{
+    color: #6c757d;
+    font-size: 15px;
+    text-align: center;
+    text-align: justify;
+    word-spacing: -px;
+} 
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .nav-contact{
+        width: 0px !important;
+        padding: 0px !important;
+    }
+    .nav-a{
+        padding-left: 0px !important;
+    }
+    /*hero section responsive start */
+        #hero-seciton-container {
+            height: 45vh;
+            margin-top: 0px;
+            text-align: center;
+            word-wrap: break-word;
+        }
+    
+        .hero-heding-text {
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 40px;
+            word-wrap: nowrap;
+        }
+    
+        .hero-peragraph {
+            margin: 15px 0px;
+            font-size: 18px;
+        }
+    
+        .hero-order-btn {
+            background-color: rgb(19, 95, 87);
+            border: none;
+            font-size: 18px;
+            padding: 10px 30px;
+            margin-top: 20px;
+        }
+    
+        .hero-order-btn:hover {
+            background-color: #198754;
+        }
+        br{
+            display: none;
+        }
+        #hero-image {
+            display: none;
+        }
+}
+
+@media only screen and (min-width: 577px) and (max-width:768px) {
+    .nav-contact {
+        width: 0px !important;
+        padding: 0px !important;
+        
+    }
+
+    .nav-a {
+        padding-left: 0px !important;
+    }
+    /* hero section responsive hare */
+        #hero-seciton-container {
+            height: 90.8vh;
+            margin-top: 0px;
+            text-align: center;
+            word-wrap: break-word;
+        }
+    
+        .hero-heding-text {
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 40px;
+            word-wrap: nowrap;
+        }
+    
+        .hero-peragraph {
+            margin: 15px 0px;
+            font-size: 18px;
+        }
+    
+        .hero-order-btn {
+            background-color: rgb(19, 95, 87);
+            border: none;
+            font-size: 18px;
+            padding: 10px 30px;
+            margin-top: 20px;
+        }
+    
+        .hero-order-btn:hover {
+            background-color: #198754;
+        }
+        br {
+            display: none;
+        }
+        #hero-img-contaier{
+            width: 80% !important;
+            margin-left: 70px;
+        }
+        #hero-image {
+            display: non;
+        }
+        /* Trending responsive */
+}
+
+@media only screen and (min-width: 769px) and (max-width:991px) {
+    .nav-contact {
+        width: 0px !important;
+        padding: 0px !important;
+    }
+
+    .nav-a {
+        padding-left: 0px !important;
+    }
+    /*hero section responsive start */
+    /* Trending Product Responsive */
+    
+
+}
+
+@media only screen and (min-width: 1199px) and (max-width:1400px){
+    .text-mouthwatering-pizza span{
+            display: none;
+        }
+}
